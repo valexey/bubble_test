@@ -50,14 +50,14 @@ Build options:
 * Go: go build
 
 Results:
-Language             | Result (sec)
----------------------|-------------
-ocaml safe bigarray  | 3.0
-ocaml unsafe bigarray| 1.03
-haskell boxed array  | 11.4
-haskell unboxed array| 2.43
-haskell unsafe array | 2.14
-C++ std::vector      | 0.8
+Language              | Result (sec)
+--------------------- | ------------
+ocaml safe bigarray   | 3.0
+ocaml unsafe bigarray | 1.03
+haskell boxed array   | 11.4
+haskell unboxed array | 2.43
+haskell unsafe array  | 2.14
+C++ std::vector       | 0.8
 Component Pascal boundaries checks on | 4.5
 Component Pascal boundaries checks off | 3.4
 Go | 1.63
