@@ -63,10 +63,3 @@ Component Pascal boundaries checks on | 4.5
 Component Pascal boundaries checks off | 3.4
 Go | 1.63
 
-
-
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
