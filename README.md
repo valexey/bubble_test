@@ -50,9 +50,10 @@ Build options:
 * Go: go build
 
 Results:
+
 Language | Result (sec)
 -------- | ------------
-ocaml safe bigarray   | 3.0
+ocaml safe bigarray | 3.0
 ocaml unsafe bigarray | 1.03
 haskell boxed array   | 11.4
 haskell unboxed array | 2.43
