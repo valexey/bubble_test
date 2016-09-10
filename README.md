@@ -55,6 +55,7 @@ Language | Result (sec)
 -------- | ------------
 ocaml safe bigarray | 3.0
 ocaml unsafe bigarray | 1.03
+ocaml safe array | 2.19
 haskell boxed array   | 11.4
 haskell unboxed array | 2.43
 haskell unsafe array  | 2.14
