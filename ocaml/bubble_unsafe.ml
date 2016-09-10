@@ -21,8 +21,8 @@ let () =
    for i=0 to n-1 do
       for j=0 to n-2-i do
          let tmp = Array1.unsafe_get arr j in
-         if Array1.unsafe_get arr j > Array1.unsafe_get arr j+1 then (
-           Array1.unsafe_set arr j (Array1.unsafe_get arr j+1);
+         if Array1.unsafe_get arr j > Array1.unsafe_get arr (j+1) then (
+           Array1.unsafe_set arr j (Array1.unsafe_get arr (j+1));
            Array1.unsafe_set arr (j+1) tmp
          )
       done;
