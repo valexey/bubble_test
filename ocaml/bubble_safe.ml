@@ -20,7 +20,7 @@ let () =
 
    for i=0 to n-1 do
       for j=0 to n-2-i do
-         let tmp = Array1.unsafe_get arr j in
+         let tmp = arr.{j} in
          if arr.{j} > arr.{j+1} then (
            arr.{j}   <- arr.{j+1};
            arr.{j+1} <- tmp

@@ -53,14 +53,14 @@ Results:
 
 Language | Result (sec)
 -------- | ------------
-ocaml safe bigarray | 3.0
-ocaml unsafe bigarray | 2.7
+ocaml safe bigarray | 2.8
+ocaml unsafe bigarray | 2.65
 ocaml safe array | 2.19
-haskell boxed array   | 11.4
-haskell unboxed array | 2.43
-haskell unsafe array  | 2.14
-C++ std::vector       | 0.8
+haskell boxed array   | 10.86
+haskell unboxed array | 2.34
+haskell unsafe array  | 2.04
+C++ std::vector       | 0.75
 Component Pascal boundaries checks on | 4.5
 Component Pascal boundaries checks off | 3.4
-Go | 1.63
+Go | 1.60
 
