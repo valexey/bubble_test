@@ -7,6 +7,7 @@ Tested languages:
 * C++ (clang 3.8.1)
 * Component Pascal / Blackbox (Blackbox 1.7rc1 via Wine)
 * Go (go 1.7)
+* Fortran (GNU Fortran (GCC) 6.1.1 20160802)
 
 Environment:
 ```
@@ -48,6 +49,7 @@ Build options:
 * C++: clang++ -O3 buble.cpp
 * Component Pascal: with and without boundaries check (see the source file)
 * Go: go build
+* Fortran: gfortran -O3 main.f90
 
 Results:
 
@@ -63,4 +65,4 @@ C++ std::vector       | 0.75
 Component Pascal boundaries checks on | 4.5
 Component Pascal boundaries checks off | 3.4
 Go | 1.60
-
+Fortran | 1.71
